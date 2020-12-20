@@ -20,7 +20,8 @@
                 "https://*/*"
             ],
             "js": [
-                "./scripts/foreground.js"
+                "./scripts/foreground.js",
+                "./scripts/libs/html2canvas.js"
             ]
         }
     ],
