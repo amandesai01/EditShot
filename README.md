@@ -22,7 +22,7 @@
 Suppose you want to edit a MarkSheet before taking a screenshot, or just want a tool to make a prank, or you want to make a meme. All these requires taking a screenshot and then editing it. If someone is tech savy, he/she may use inspect element. Well, this tool makes this process easier.
 
 Here's how:
-* It grabs all the elements in the DOM and sets their `contenteditable` property yo `true`. 
+* Once you hit "Make Screen Editable", it grabs all the elements in the DOM and sets their `contenteditable` property yo `true`. 
 * Then, it iterates over all the links and deletes their `href` propery. Thus, saving user from getting redirected while editing. :wink:
 * Lastly, when user hits the `Take Screenshot` button, it uses `html2canvas` library to generate a image. It is in memory currently.
 * Then, it creates an "in-memory" `a` tag, appends the data to the URL by doing some conversions and hits that a tag.
