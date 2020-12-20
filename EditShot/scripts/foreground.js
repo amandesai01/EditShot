@@ -14,9 +14,19 @@ const disableAllLinks = function () {
     }
 }
 
+const captureVisible = function() {
+    html2canvas(document.querySelector("body")).then(canvas => {
+        
+    })
+}
+
 chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
     if(message === 'MAKE_ALL_EDITABLE'){
         makeAllEditable();
         disableAllLinks();
+    }
+    else if(message === 'CAPTURE_SCREEN'){
+        console.log("Reached")
+        captureVisible();
     }
 })
