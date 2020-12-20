@@ -17,9 +17,6 @@
 
 ## Description
 
-<img src="Assets/prev.gif" alt="Demo">
-<img src="Assets/ss1.png" alt="Demo">
-
 Suppose you want to edit a MarkSheet before taking a screenshot, or just want a tool to make a prank, or you want to make a meme. All these requires taking a screenshot and then editing it. If someone is tech savy, he/she may use inspect element. Well, this tool makes this process easier.
 
 Here's how:
@@ -36,6 +33,12 @@ it will be available for download from chrome webstore. Link will be updated ins
 
 Till then, STAR THIS REPO ;)
 ```
+
+## DEMO:
+<img src="Assets/prev.gif" alt="Demo">
+
+## Screenshot:
+<img src="Assets/ss1.png" alt="Demo">
 
 ---
 
