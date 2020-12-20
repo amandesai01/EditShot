@@ -14,9 +14,16 @@ const disableAllLinks = function () {
     }
 }
 
+const exportToJpeg = function (canvas) {
+    const target = document.createElement('a');
+    target.href = canvas.toDataURL("image/jpeg").replace("image/jpeg", "image/octet-stream");
+    target.download = 'screenshot.jpg';
+    target.click();
+}
+
 const captureVisible = function() {
     html2canvas(document.querySelector("body")).then(canvas => {
-        
+        exportToJpeg(canvas)
     })
 }
 
