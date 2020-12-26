@@ -26,13 +26,8 @@ Here's how:
 * Then, it creates an "in-memory" `a` tag, appends the data to the URL by doing some conversions and hits that a tag.
 * Ofcourse everything is done behind the scenes and quickly. So this dosen't hamper the experience. :smile:
 
-
-```
-This extension is UNDER REVIEW and once done,
-it will be available for download from chrome webstore. Link will be updated instead of this box once verification is done.
-
-Till then, STAR THIS REPO ;)
-```
+## Download Extension from Here:
+https://chrome.google.com/webstore/detail/editshot/fofeangbmjajhkdbknopjcdgnafakhje
 
 ## DEMO:
 <img src="Assets/prev.gif" alt="Demo">
